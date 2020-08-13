@@ -1,0 +1,38 @@
+#canverse{
+    width: 1000px;
+    height: 600px;
+    background-color:rgb(224, 224, 235);
+    display: flex;
+    margin: auto;
+}
+
+path:hover{
+    opacity: 0.1;
+}
+
+.legend-rect:hover{
+    opacity: 0.5;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#description{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tooltip{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

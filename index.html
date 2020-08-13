@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title >choropleth map</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+</head>
+<body>
+    <div id='title'>United States Educational Attainment</div>
+    <div id='description'>Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)
+    </div>
+    <svg id="canverse">
+
+    </svg>
+    <div id='tooltip'></div>
+    <svg id="legend" width='600' height='50'>
+        <rect class='legend-rect' width='30' height='30' x='0' y='0' fill='green' ></rect>
+        <rect class='legend-rect' width='30' height='30' x='30' y='0' fill='yellow'></rect>
+        <rect class='legend-rect' width='30' height='30' x='60' y='0' fill='orange'></rect>
+        <rect class='legend-rect' width='30' height='30' x='90' y='0' fill='red'></rect>
+        <rect class='legend-rect' width='30' height='30' x='120' y='0' fill='maroon'></rect>
+
+        <text id='legend-description' x='170' y='25'  font-family="Verdana" font-size="25" > - Mouse over for Description   
+        </text>
+    </svg>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="choropleth.js"></script>
+</html>
