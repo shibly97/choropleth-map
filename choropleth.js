@@ -69,7 +69,9 @@ let drawMap =() =>{
             .on('mouseout',(item) =>{
                 tooltip.transition()
                        .style('visibility','hidden')
+                       
             })
+
 
 }
 
